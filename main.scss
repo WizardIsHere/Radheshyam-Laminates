@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // font-family: 'Roboto', sans-serif;  //BODY
+    // font-family: 'Bebas Neue', cursive; //Carousel
+}
+// Navbar
+.navbar-expand-lg .navbar-collapse {
+
+    display: -ms-flexbox!important;
+    display: flex!important;
+    margin-top: 45px;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-brand{
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    transform: translateX(-50%);
+}
+.round{
+    border-bottom-right-radius:25px;
+    border-bottom-left-radius:25px;
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
+}
+ 
+.btn.btn-search{
+    position: absolute;
+    top: 1px;
+    left: 630px;
+}
+// Showcase
+.carousel-b-1{
+    position: absolute;
+    top: 550px;
+    left: 350px;
+    border: 1px solid #fff !important;
+    width: 400px;
+    height: 220px;
+}
+.carousel-b-2 p{
+    padding-top: 0px;
+    padding-left: 55px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 55px;
+    text-align: left;
+    z-index: 200;
+}
+.carousel-b-2{
+    position: absolute;
+    top: 585px;
+    left: 300px;
+    border: 1px solid !important;
+    background: rgba(black, 0.7);
+    width: 520px;
+    height: 150px;
+}
+// CARDS
+.cards-3{
+    top: -40px;
+}
+#collections{
+    font-family: 'Roboto', sans-serif;
+}
+//About
+.experience{
+    position: absolute;
+    top: 2150px;
+    left: 1084px;
+    border: 1px solid #ca814c !important;
+    width: 280px;
+    height: 150px;
+}
+.yrs{
+    position: absolute;
+    top: 2190px;
+    left: 850px;
+    padding-top: 0px;
+    padding-left: 55px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    color: #ca814c;
+    background-color: #fff;
+    font-size: 55px;
+    text-align: left;
+    z-index: 20;
+}
+.fab{
+    color: #000;
+}
